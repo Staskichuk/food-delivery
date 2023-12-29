@@ -79,6 +79,14 @@ img {
   line-height: 0;
 }
 
+.btn-burger:hover {
+  fill: var(--Yellow-main, #ffe550);
+}
+
+.btn-burger:focus {
+  fill: var(--Yellow-main, #ffe550);
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -119,6 +127,28 @@ img {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.mobile-menu-navigation {
+  margin-top: 16px;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.mobile-menu-item {
+}
+
+.mobile-menu-link {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 37px;
 }
 
 @media screen and (max-width: 767px) {
