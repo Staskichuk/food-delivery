@@ -63,19 +63,47 @@
   <!-- SECTION HERO -->
   <section>
     <div class="container">
-      <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
+      <div class="container-hero">
+        <div class="container-title-text-btn">
+          <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
 
-      <p class="text-hero">
-        With just a few clicks, you can have your favorite meals delivered
-        straight to your doorstep, no matter where you are. Order now and enjoy
-        a hassle-free and delicious meal from the comfort of your own home.
-      </p>
+          <p class="text-hero">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
 
-      <button class="btn-order btn-order-mobile" type="button">
-        Order Now
-      </button>
+          <button class="btn-order btn-order-mobile" type="button">
+            Order Now
+          </button>
+        </div>
 
-      <img src="" alt="" />
+        <div class="container-salat">
+          <picture>
+            <source
+              srcset="./images/salat-desk.png"
+              media="(max-width: 1280px)"
+            />
+            <img src="./images/salat-desk.png" alt="" />
+          </picture>
+        </div>
+
+        <div class="container-kotlet">
+          <picture>
+            <source srcset="./images/kotlet.png" media="(max-width: 768px)" />
+            <img src="./images/kotlet.png" alt="" width="292" height="292" />
+          </picture>
+
+          <svg class="icon-arrow-right" width="34" height="28">
+            <use href="./images/sprite.svg#icon-arrow-right"></use>
+          </svg>
+
+          <svg class="icon-arrow-left" width="34" height="28">
+            <use href="./images/sprite.svg#icon-arrow-left"></use>
+          </svg>
+        </div>
+      </div>
     </div>
   </section>
   <!-- MOBILE MENU -->
@@ -86,6 +114,7 @@
           <use href="./images/sprite.svg#icon-close"></use>
         </svg>
       </button>
+
       <nav class="mobile-menu-navigation">
         <ul class="mobile-menu">
           <li class="mobile-menu-item">
